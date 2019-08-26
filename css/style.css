@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Noto Sans TC', sans-serif;
+    src: local('Noto Sans TC', sans-serif), local(Arial);
+    /* 中文 */
+    unicode-range: U+4E00-9FFF
+}
+
+@font-face {
+    font-family: 'Amatic SC', cursive;
+    src: local('Amatic SC', cursive), local(Arial);
+    /* 英文 */
+    unicode-range: U+00-024F;
+}
+
+
+.title {
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
+    color: #4B4B4B;
+}
+
+
+
+.foot {
+    background: #F0F0F0;
+}
+
+.roombox {
+    position: relative;
+    top: 200px;
+    z-index: 999;
+}
+
+.roomtitle {
+    font-size: 35px;
+    color: #000;
+    font-family: 'Amatic SC', cursive;
+}
+
+.roomtitle_s {
+    font-size: 14px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.indexbg {
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 70%, rgba(255, 255, 255, 1) 70%, rgb(240, 240, 240) 70%, rgba(240, 240, 240) 100%);
+}
+
+/* room html */
+.roombg {
+    background: linear-gradient(to bottom, rgba(240, 240, 240, 1) 15%, rgba(240, 240, 240, 1) 15%, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.navbox {
+    height: 150px;
+}
+
+p {
+    margin: 0;
+}
+
+/* BS修改區 */
+.navbar-light .navbar-nav .nav-link {
+    color: #707070;
+}
+
+/* roomhover */
+
+
+ /* #singleroom img {
+    transform:scale(1,1);transition: all 1s ease-out;
+   width:180px; height:223px;overflow:hidden;
+   opacity:(.2);
+} */
+/* #singleroom img:hover {
+    transform:scale(1.2,1.2);
+   
+}  */
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- google font 中文-->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <!-- google font 英文 -->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Noto+Sans+TC&display=swap" rel="stylesheet">
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>White Inn</title>
+    <style>
+        .col {
+            margin: 0;
+            padding: 0;
+            flex-grow: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container-fluid indexbg">
+        <div class="row flex-column vh-100">
+            <!-- col1 -->
+            <div class="col-auto title mt-5">White Inn</div>
+            <!-- col2 -->
+            <div
+                class="roombox col flex-column align-items-center flex-md-row py-3 flex-md-wrap d-flex justify-content-center">
+                <!-- room -->
+                <div class="card-group">
+                    <div class="card" id="singleroom" onclick="linka()" style="cursor: pointer;">
+                        <img class="card-img-top" src="https://picsum.photos/180/223/?random=1" alt="Card image cap" id="img1">
+                        <div class="card-body">
+                            <h5 class="card-title">Single Room</h5>
+                            <p class="card-text"> $ 1380 $ 1500</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img class="card-img-top" src="https://picsum.photos/180/223/?random=2" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Deluxe Single Room</h5>
+                            <p class="card-text">
+                                $ 1890 $ 2000</p>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="https://picsum.photos/180/223/?random=3" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Double Room</h5>
+                            <p class="card-text">
+                                $ 2460 $ 2500</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="https://picsum.photos/180/223/?random=4" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title"> Deluxe Double Room</h5>
+                            <p class="card-text">
+                                $ 2888 $ 3000</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="https://picsum.photos/180/223/?random=5" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Twin Room</h5>
+                            <p class="card-text">$ 3350 $ 3500</p>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="https://picsum.photos/180/223/?random=6" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                $ 3899 $ 4000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- col3 -->
+            <div class="col-auto d-flex flex-row justify-content-center mb-5 fixed-bottom"
+                style="font-family: 'Noto Sans TC', sans-serif;">
+                <div class="col-auto">台北市新手區前端街123號</div>
+                <div class="col-auto">12345-6789</div>
+                <div class="col-auto">abcd@efghijk.com</div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        // 連結房間細節用
+        function linka() {
+            window.location = "room.html"
+        }
+
+    </script>
+</body>
+
+</html>
